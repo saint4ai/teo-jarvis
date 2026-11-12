@@ -1,0 +1,78 @@
+ЧЕРНОВИК / DRAFT
+
+Условия использования программы «Тео» (Teo)
+Terms of use for the Teo application
+
+Статус: черновик. Текст не вступил в силу. Перед публичным выпуском его проверяет юрист по праву Республики Казахстан.
+Status: draft. This text is not in force. A lawyer reviews it under the law of the Republic of Kazakhstan before the public release.
+
+Правообладатель: [указывается после решения, кто выпускает Тео]
+Rights holder: [to be filled in once it is decided who publishes Teo]
+
+------------------------------------------------------------------------
+
+1. Что это / What this covers
+
+Эти условия относятся к установщикам и программе «Тео» в готовом виде, которые лежат в разделе Releases этого репозитория. Исходный код Тео не публикуется и не лицензируется этим текстом.
+
+These terms cover the installers and the Teo application in binary form published in the Releases section of this repository. The Teo source code is not published and is not licensed by this text.
+
+2. Что можно / What you may do
+
+Скачать установщик, поставить Тео на свой компьютер и пользоваться им лично. Право неисключительное, нельзя передать другому человеку. Одна подписка и один компьютер на человека.
+
+Download the installer, install Teo on your own computer and use it personally. The right is non-exclusive and not transferable. One subscription and one computer per person.
+
+3. Чего нельзя / What you may not do
+
+а) Продавать, сдавать в аренду, выдавать Тео за свою программу.
+б) Обходить пробный период, привязку к устройству и проверку аккаунта.
+в) Разбирать программу и восстанавливать её код, кроме случаев, когда закон это прямо разрешает. Для библиотек под открытыми лицензиями (например LGPL-3.0) действуют условия этих лицензий: их можно менять и разбирать для отладки замены.
+г) Использовать Тео, чтобы вредить другим людям: спам, взлом, слежка, обман.
+д) Убирать пометки об авторстве и лицензии.
+
+a) Sell, rent or pass Teo off as your own program.
+b) Circumvent the trial period, device binding or account checks.
+c) Disassemble the program or recover its code, except where the law expressly allows it. Libraries under open licenses (for example LGPL-3.0) follow their own terms: you may modify them and decompile for debugging a replacement.
+d) Use Teo to harm other people: spam, hacking, stalking, fraud.
+e) Remove authorship and license notices.
+
+4. Бета «как есть» / The beta is provided as is
+
+Бета-версия может ошибаться и менять поведение между выпусками. Программа предоставляется «как есть», без гарантий. Ты сам решаешь, что просить у Тео, и отвечаешь за последствия действий, которые разрешил.
+
+The beta can make mistakes and change behaviour between releases. The program is provided "as is", without warranty. You decide what to ask Teo and you are responsible for the actions you approve.
+
+5. Claude и другие сервисы / Claude and other services
+
+Тео работает на Claude. Вход в Claude, подписка и её условия принадлежат Anthropic. Сервисы ElevenLabs, Telegram, WhatsApp, Google и другие работают по своим условиям. Тео не связан с этими компаниями.
+
+Teo runs on Claude. The Claude sign-in, the subscription and its terms belong to Anthropic. ElevenLabs, Telegram, WhatsApp, Google and other services follow their own terms. Teo is not affiliated with these companies.
+
+6. Сторонние компоненты / Third-party components
+
+В Тео есть чужие компоненты под своими лицензиями. Они перечислены в NOTICE.md и в файле THIRD-PARTY-NOTICES.txt внутри программы. Если условия этого текста расходятся с лицензией компонента, для компонента главнее его лицензия.
+
+Teo includes third-party components under their own licenses. They are listed in NOTICE.md and in THIRD-PARTY-NOTICES.txt inside the app. If these terms conflict with a component's license, the component's license wins for that component.
+
+7. Ответственность / Liability
+
+Разработчики отвечают за ущерб только в пределах, которые допускает закон. Не отвечают за потерю данных, прибыли и косвенные убытки, за действия сторонних сервисов и за решения, принятые по ответам ИИ.
+
+The developers are liable only to the extent the law permits. They are not liable for data loss, lost profit and indirect damages, for third-party services, or for decisions made on AI answers.
+
+8. Данные / Data
+
+Что Тео делает с данными, написано в docs/PRIVACY.md.
+What Teo does with data is described in docs/PRIVACY.md.
+
+9. Прекращение / Termination
+
+Условия действуют, пока ты пользуешься Тео. Нарушил их: право пользования прекращается. Удалил Тео: ты вправе удалить аккаунт на странице аккаунта.
+
+The terms last while you use Teo. If you break them, your right to use ends. If you uninstall Teo, you may delete your account on the account page.
+
+10. Право / Governing law
+
+Право Республики Казахстан.
+The law of the Republic of Kazakhstan.

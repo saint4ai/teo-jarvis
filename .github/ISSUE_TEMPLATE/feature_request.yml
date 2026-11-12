@@ -1,0 +1,26 @@
+name: Идея / Feature request
+description: Чего не хватает Тео / What Teo is missing
+title: "[Идея] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: Какое дело ты хочешь поручить Тео / What task do you want to hand to Teo
+      description: Опиши дело, а не решение. Например: «собирать счета клиентам из таблицы».
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: Как ты делаешь это сейчас / How you do it today
+  - type: dropdown
+    id: how_often
+    attributes:
+      label: Как часто / How often
+      options:
+        - Каждый день / Every day
+        - Раз в неделю / Weekly
+        - Иногда / Sometimes
+    validations:
+      required: true

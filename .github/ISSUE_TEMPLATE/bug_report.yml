@@ -1,0 +1,60 @@
+name: Ошибка / Bug report
+description: Тео работает не так, как надо / Teo does not work as expected
+title: "[Ошибка] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо, что пишешь. Не прикладывай ключи, пароли и личные переписки.
+        Thanks for reporting. Do not attach keys, passwords or private chats.
+  - type: textarea
+    id: what
+    attributes:
+      label: Что случилось / What happened
+      description: Что ты сказал Тео, что он сделал и что ты увидел на экране.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Что должно было быть / What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить / Steps to reproduce
+      placeholder: "1. Сказал «Тео»...\n2. ..."
+  - type: input
+    id: version
+    attributes:
+      label: Версия Тео / Teo version
+      description: Настройки, блок «О программе».
+      placeholder: "1.0.0-beta.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Система / Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS 15 или новее / macOS 15 or newer
+        - macOS 13 или 14 / macOS 13 or 14
+        - Другая / Other
+    validations:
+      required: true
+  - type: input
+    id: report
+    attributes:
+      label: Номер отчёта для поддержки / Support report number
+      description: Если отправлял отчёт из Настроек, впиши его номер.
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Проверка / Check
+      options:
+        - label: В описании нет ключей, паролей и личных переписок / No keys, passwords or private chats in this report
+          required: true

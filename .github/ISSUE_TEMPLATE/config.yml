@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Вопрос или обсуждение / Question or discussion
+    url: https://github.com/saint4ai/teo-jarvis/discussions
+    about: Спроси, как что-то сделать, или расскажи, как используешь Тео. / Ask how to do something or share how you use Teo.
+  - name: FAQ
+    url: https://github.com/saint4ai/teo-jarvis/blob/main/docs/FAQ.md
+    about: Предупреждения Windows и macOS, микрофон, удаление, проверка файла. / Windows and macOS warnings, microphone, uninstall, file check.
