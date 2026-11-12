@@ -10,7 +10,7 @@ Beta for early users: **14 days free, every feature included.**
 
 ![Status](https://img.shields.io/badge/status-beta-e8c887?style=flat-square)
 ![Windows](https://img.shields.io/badge/Windows-10%20and%2011-3b82f6?style=flat-square&logo=windows&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-13%2B%20(Apple%20Silicon)-555?style=flat-square&logo=apple&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-13%2B%20%28Apple%20Silicon%29-555?style=flat-square&logo=apple&logoColor=white)
 ![Free beta](https://img.shields.io/badge/beta-14%20days%20free-2ea043?style=flat-square)
 ![Runs on Claude](https://img.shields.io/badge/runs%20on-Claude-d97757?style=flat-square)
 

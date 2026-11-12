@@ -8,11 +8,11 @@
 
 Бета для первых пользователей: **14 дней бесплатно, весь функционал.**
 
-![Статус](https://img.shields.io/badge/статус-бета-e8c887?style=flat-square)
-![Windows](https://img.shields.io/badge/Windows-10%20и%2011-3b82f6?style=flat-square&logo=windows&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-13%2B%20(Apple%20Silicon)-555?style=flat-square&logo=apple&logoColor=white)
-![Бесплатно](https://img.shields.io/badge/бета-14%20дней%20бесплатно-2ea043?style=flat-square)
-![Работает на Claude](https://img.shields.io/badge/работает%20на-Claude-d97757?style=flat-square)
+![Статус](https://img.shields.io/badge/%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%B1%D0%B5%D1%82%D0%B0-e8c887?style=flat-square)
+![Windows](https://img.shields.io/badge/Windows-10%20%D0%B8%2011-3b82f6?style=flat-square&logo=windows&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-13%2B%20%28Apple%20Silicon%29-555?style=flat-square&logo=apple&logoColor=white)
+![Бесплатно](https://img.shields.io/badge/%D0%B1%D0%B5%D1%82%D0%B0-14%20%D0%B4%D0%BD%D0%B5%D0%B9%20%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE-2ea043?style=flat-square)
+![Работает на Claude](https://img.shields.io/badge/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82%20%D0%BD%D0%B0-Claude-d97757?style=flat-square)
 
 **[Скачать бета-версию](https://github.com/saint4ai/teo-jarvis/releases)** · [Как поставить](#как-поставить) · [Что умеет](#что-умеет-тео) · [FAQ](docs/FAQ.md) · [English](README.en.md)
 
