@@ -10,7 +10,7 @@ Teo is a voice assistant for your computer, in the spirit of Jarvis. Claude runs
 
 ### Do I need a Claude subscription?
 
-Yes. Teo thinks and answers through Claude, so you need Claude Pro or higher (about $20 a month on the Anthropic site), or your own Anthropic API key. Teo guides you through the sign-in in the setup wizard. Claude is not available in every country: check that it opens for you before you pay.
+Yes. Teo thinks and answers through Claude, so you need Claude Pro or higher (from $20 a month on the Anthropic site), or your own Anthropic API key. Teo guides you through the sign-in in the setup wizard. Claude is not available in every country: check that it opens for you before you pay.
 
 ### Do I need Python, Node or a terminal?
 

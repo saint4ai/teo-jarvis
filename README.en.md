@@ -6,7 +6,7 @@
 
 **Jarvis for your own computer.** Say "Teo" and it opens apps, finds files, reads your mail or edits a spreadsheet. It runs on Claude. Windows and macOS.
 
-Beta 1.0.0-beta.1: **14 days free, every feature included. Then $10 a month.**
+Beta 1.0.0-beta.1: **14 days free, every feature included. Then $10 a month.** Teo needs a Claude subscription from $20 a month.
 
 ![Status](https://img.shields.io/badge/status-beta-e8c887?style=flat-square)
 ![Windows](https://img.shields.io/badge/Windows-10%20and%2011-3b82f6?style=flat-square&logo=windows&logoColor=white)
@@ -75,7 +75,7 @@ All screenshots use demo data. Names, emails and numbers are made up.
 ### Requirements
 
 - Windows 10 (version 1809 or newer) or 11, 64-bit. Or macOS 13 or newer on an Apple M1 chip or newer.
-- A Claude Pro subscription or higher (about $20 a month on the Anthropic site). Or your own Anthropic API key.
+- A Claude Pro subscription or higher (from $20 a month on the Anthropic site). Or your own Anthropic API key.
 - 8 GB of RAM and 3 GB of disk space. 16 GB and 5 GB on an SSD is better.
 - A microphone and an internet connection.
 - A Telegram account: you sign in to Teo with it.
