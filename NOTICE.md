@@ -1,6 +1,6 @@
 # Благодарности и сторонние лицензии / Credits and third-party licenses
 
-[README](README.md) · [README.en](README.en.md)
+[English version](NOTICE.en.md) · [Назад к README](README.md)
 
 ## Основа проекта / Project origin
 

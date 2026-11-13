@@ -1,6 +1,6 @@
 # Что Тео делает с данными / What Teo does with your data
 
-[Назад к README](../README.md) · [Back to README](../README.en.md)
+[English version](PRIVACY.en.md) · [Назад к README](../README.md)
 
 Это краткое описание. Полная политика конфиденциальности на сервере Тео: [teo.onai.academy/privacy](https://teo.onai.academy/privacy), есть казахская версия.
 This is a short description. The full privacy policy is on the Teo server: [teo.onai.academy/privacy](https://teo.onai.academy/privacy), a Kazakh version is available.

@@ -113,7 +113,7 @@ You can go through the wizard steps while the files download.
 
 ### Will my computer run Teo?
 
-See the [requirements](REQUIREMENTS.md). On first setup Teo measures your computer (about 15 seconds, silent) and names a level. Between minimum and recommended, Teo switches to a light mode and tells you what is turned off. Below minimum, Teo says so honestly and the trial does not start.
+See the [requirements](REQUIREMENTS.en.md). On first setup Teo measures your computer (about 15 seconds, silent) and names a level. Between minimum and recommended, Teo switches to a light mode and tells you what is turned off. Below minimum, Teo says so honestly and the trial does not start.
 
 ### How do I uninstall Teo?
 
@@ -149,7 +149,7 @@ While Teo speaks or plays a sound, the microphone is deaf. If Teo still took its
 
 ### How do I connect Google Drive, mail and calendar?
 
-Google Drive and other services connect through Claude, four steps. Mail and calendar are set up separately. All in [CONNECTORS.md](CONNECTORS.md).
+Google Drive and other services connect through Claude, four steps. Mail and calendar are set up separately. All in [CONNECTORS.en.md](CONNECTORS.en.md).
 
 ### What is the Teo browser?
 
@@ -163,7 +163,7 @@ Say "Teo, remember that ..." and explain the right way. For disputed cases Teo k
 
 ### Where does my data go?
 
-In short: memory, chats, logs and keys stay on your computer. To answer, Claude receives what you said and the parts of files, mail and pages you asked Teo to open. Full table: [PRIVACY.md](PRIVACY.md). The full policy on the Teo server: [teo.onai.academy/privacy](https://teo.onai.academy/privacy).
+In short: memory, chats, logs and keys stay on your computer. To answer, Claude receives what you said and the parts of files, mail and pages you asked Teo to open. Full table: [PRIVACY.en.md](PRIVACY.en.md). The full policy on the Teo server: [teo.onai.academy/privacy](https://teo.onai.academy/privacy).
 
 ### Can Teo send or delete something without asking?
 

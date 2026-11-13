@@ -1,5 +1,7 @@
 # Безопасность / Security
 
+[English version](SECURITY.en.md) · [Назад к README](README.md)
+
 ## Как сообщить об уязвимости / Reporting a vulnerability
 
 Нашёл уязвимость в Тео? Не создавай публичный Issue.

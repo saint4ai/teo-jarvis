@@ -1,6 +1,6 @@
 # Как подключить Google Диск, почту и календарь / Connect Google Drive, mail and calendar
 
-[Назад к README](../README.md) · [Back to README](../README.en.md)
+[English version](CONNECTORS.en.md) · [Назад к README](../README.md)
 
 ## По-русски
 

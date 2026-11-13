@@ -1,5 +1,7 @@
 # История версий Тео
 
+[English version](CHANGELOG.en.md) · [Назад к README](README.md)
+
 Здесь то, что заметит человек. Новая версия сверху. Установщики и сумма SHA-256 лежат в [Releases](https://github.com/saint4ai/teo-jarvis/releases).
 
 ## 1.0.0-beta.1 (13 ноября 2026)

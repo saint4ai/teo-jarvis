@@ -1,5 +1,7 @@
 # Поддержка / Support
 
+[English version](SUPPORT.en.md) · [Назад к README](README.md)
+
 **Не работает или не понятно?** / **Something broken or unclear?**
 
 1. Посмотри [FAQ](docs/FAQ.md) ([English](docs/FAQ.en.md)). Там цена и оплата, предупреждения Windows и macOS, микрофон, удаление, проверка файла.

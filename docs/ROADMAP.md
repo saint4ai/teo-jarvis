@@ -1,6 +1,6 @@
 # Дорожная карта / Roadmap
 
-[Назад к README](../README.md) · [Back to README](../README.en.md)
+[English version](ROADMAP.en.md) · [Назад к README](../README.md)
 
 Направления, без обещания сроков. Порядок меняется по тому, что пишут люди из беты.
 Directions, not promises of dates. The order changes with what beta testers tell us.

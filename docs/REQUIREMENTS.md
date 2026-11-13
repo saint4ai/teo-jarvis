@@ -1,6 +1,6 @@
 # Системные требования / System requirements
 
-[Назад к README](../README.md) · [Back to README](../README.en.md)
+[English version](REQUIREMENTS.en.md) · [Назад к README](../README.md)
 
 Два уровня. **Минимальные:** Тео работает в лёгком режиме, часть функций проще. **Рекомендуемые:** всё включено.
 Two levels. **Minimum:** Teo runs in a light mode, some features are simpler. **Recommended:** everything on.

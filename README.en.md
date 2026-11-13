@@ -80,7 +80,7 @@ All screenshots use demo data. Names, emails and numbers are made up.
 - A microphone and an internet connection.
 - A Telegram account: you sign in to Teo with it.
 
-Details: [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md).
+Details: [docs/REQUIREMENTS.en.md](docs/REQUIREMENTS.en.md).
 
 ### Windows
 
@@ -140,7 +140,7 @@ On first launch Teo downloads two models: speech recognition (about 640 MB) and 
 
 ### Connect Google Drive, mail and calendar
 
-Google Drive and other services connect through Claude. Mail and calendar are set up separately. Guide: [docs/CONNECTORS.md](docs/CONNECTORS.md).
+Google Drive and other services connect through Claude. Mail and calendar are set up separately. Guide: [docs/CONNECTORS.en.md](docs/CONNECTORS.en.md).
 
 ## Beta: 14 days free, then $10 a month
 
@@ -166,17 +166,17 @@ You can see your account, subscription and payments on the [teo.onai.academy/acc
 
 Memory, logs, chats and keys stay on your computer. To answer, Claude receives what you said and the parts of files, mail and pages you asked Teo to open. The cloud voice runs only with your own key.
 
-Details: [docs/PRIVACY.md](docs/PRIVACY.md). The full policy on the Teo server: [teo.onai.academy/privacy](https://teo.onai.academy/privacy).
+Details: [docs/PRIVACY.en.md](docs/PRIVACY.en.md). The full policy on the Teo server: [teo.onai.academy/privacy](https://teo.onai.academy/privacy).
 
 ## Teo and other Jarvis projects
 
 Most Jarvis projects on GitHub need to be built from source: Python, API keys, a terminal. Teo installs with an installer and guides you through setup.
 
-Teo started as a fork of the open-source [JARVIS](https://github.com/adewaskar/jarvis) project by Aditya Dewaskar (MIT). Thank you to the author. See [NOTICE.md](NOTICE.md).
+Teo started as a fork of the open-source [JARVIS](https://github.com/adewaskar/jarvis) project by Aditya Dewaskar (MIT). Thank you to the author. See [NOTICE.en.md](NOTICE.en.md).
 
 ## Roadmap and docs
 
-[Roadmap](docs/ROADMAP.md) (directions, no dates) · [Changelog](CHANGELOG.md) · [FAQ](docs/FAQ.en.md) · [Mac install](docs/INSTALL-MAC.en.md) · [Requirements](docs/REQUIREMENTS.md) · [Privacy](docs/PRIVACY.md) · [Offer](https://teo.onai.academy/terms) (Russian and Kazakh) · [Security](SECURITY.md) · [License](LICENSE)
+[Roadmap](docs/ROADMAP.en.md) (directions, no dates) · [Changelog](CHANGELOG.en.md) · [FAQ](docs/FAQ.en.md) · [Mac install](docs/INSTALL-MAC.en.md) · [Requirements](docs/REQUIREMENTS.en.md) · [Privacy](docs/PRIVACY.en.md) · [Offer](https://teo.onai.academy/terms) (Russian and Kazakh) · [Security](SECURITY.en.md) · [License](LICENSE)
 
 ---
 
