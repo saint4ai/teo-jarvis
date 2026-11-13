@@ -6,6 +6,18 @@ Here are the changes a person will notice. The newest version is on top. Install
 
 The Teo interface is in Russian for now, so the Russian names of buttons and sections are given in brackets.
 
+## 1.0.0-beta.3 (November 14, 2026)
+
+What's new:
+
+- Projects (sites, documents, code) run on Claude's strongest model, so a task stops halfway less often.
+- Everyday voice answers are faster and use less of your Claude subscription.
+- With Kaspersky, ESET and similar antivirus software, sign-in, payment and updates work.
+- Teo no longer asks again for what you already allowed, including after an update.
+- The project buttons «В браузере» (In browser) and «Папка» (Folder) now answer: opened, or why not.
+- Windows 11: Teo finds the default browser on new versions; the Copilot key can be your Teo key.
+- Mac: a permanent signature, so macOS permissions survive updates (the update from beta 2 asks once).
+
 ## 1.0.0-beta.2 (November 13, 2026)
 
 Fixes and new features after the first hands-on check of the beta.
