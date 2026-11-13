@@ -46,7 +46,7 @@ Claude runs inside, through your own Claude subscription. You do not need a term
 | **Skills.** Ready-made abilities, plus new ones Teo writes for itself | "What skills do you have" |
 | **Dictation into any window.** Hold a key, speak, the text lands where your cursor is | Shift and the Teo key |
 
-Before a risky action Teo shows a card and waits for "yes" or "no". Sending messages, closing apps and cleanup happen only after you agree.
+Teo does a clear request right away. A message goes out after 5 seconds, and you can cancel it in that time. Deleting, money and installing apps happen only after you say "yes" on a card.
 
 ### Voice
 
