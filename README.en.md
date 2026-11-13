@@ -6,7 +6,7 @@
 
 **Jarvis for your own computer.** Say "Teo" and it opens apps, finds files, reads your mail or edits a spreadsheet. It runs on Claude. Windows and macOS.
 
-Beta 1.0.0-beta.1: **14 days free, every feature included. Then $10 a month.** Teo needs a Claude subscription from $20 a month.
+Beta 1.0.0-beta.2: **14 days free, every feature included. Then $10 a month.** Teo needs a Claude subscription from $20 a month.
 
 ![Status](https://img.shields.io/badge/status-beta-e8c887?style=flat-square)
 ![Windows](https://img.shields.io/badge/Windows-10%20and%2011-3b82f6?style=flat-square&logo=windows&logoColor=white)
@@ -36,7 +36,7 @@ Claude runs inside, through your own Claude subscription. You do not need a term
 |---|---|
 | **Apps and windows.** Open, close, snap to a side, lower the volume | "Open Telegram", "Snap Chrome to the left" |
 | **Files and documents.** Find a file, read it, edit Word and Excel, make a PDF | "Find the file contract", "Make an Excel sheet of monthly expenses" |
-| **Mail and calendar.** Gmail, Yandex and Mail.ru with an app password. Calendar by link | "What important mail came in", "Reply to the last client email" |
+| **Mail and calendar.** Gmail, Yandex Mail and Mail.ru with an app password. Google Calendar through Claude connectors | "What important mail came in", "Reply to the last client email" |
 | **Google Drive and other services** through Claude connectors | "Find the contract on Drive" |
 | **WhatsApp and Telegram.** Sign in with a QR code or a phone number. Teo reads chats and replies. A reply to a person you named goes out after 5 seconds, and you can cancel it in that time. If the recipient is unclear or the task involves someone else's text, Teo asks with a card first | "Who is waiting for a reply", "Write to Marina: I will be there in an hour" |
 | **Voice messages.** Teo transcribes them and gives you the short version | "What is in Marina's voice message" |
@@ -78,13 +78,13 @@ All screenshots use demo data. Names, emails and numbers are made up.
 - A Claude Pro subscription or higher (from $20 a month on the Anthropic site). Or your own Anthropic API key.
 - 8 GB of RAM and 3 GB of disk space. 16 GB and 5 GB on an SSD is better.
 - A microphone and an internet connection.
-- A Telegram account: you sign in to Teo with it.
+- An email address or a Telegram account: to sign in to Teo.
 
 Details: [docs/REQUIREMENTS.en.md](docs/REQUIREMENTS.en.md).
 
 ### Windows
 
-**1.** Open [Releases](https://github.com/saint4ai/teo-jarvis/releases) and download `Teo-Setup-1.0.0-beta.1.exe`. The browser may ask about the file: click Keep.
+**1.** Open [Releases](https://github.com/saint4ai/teo-jarvis/releases) and download `Teo-Setup-1.0.0-beta.2.exe`. The browser may ask about the file: click Keep.
 
 **2.** Run the file with a double click. No administrator rights needed.
 
@@ -124,15 +124,17 @@ After launch macOS asks for microphone and other permissions one by one, when Te
 
 ### First launch
 
-Teo setup walks you through: computer check, Teo account, microphone, wake word, Claude sign-in, voice, first command.
+Teo setup walks you through: computer check, Teo account, microphone, wake word, Claude sign-in, voice, first command and "Getting to know you". The first command is «Тео, найди последний PDF в Загрузках» ("Teo, find the latest PDF in Downloads").
 
-**Teo account.** Click "Create account" (in the app: «Создать аккаунт»). Teo opens a sign-in page in your browser.
+**Teo account.** Click "Create account" (in the app: «Создать аккаунт»), or "Sign in" («Войти») if you already have an account. Teo opens a sign-in page in your browser. The page is in Russian, Kazakh and English.
 
 1. Match the code on the page with the code in the Teo window.
 2. Tick both boxes: terms and offer, data processing. Click "Continue".
-3. Confirm the sign-in through Telegram. The sign-in bot is @teojarvis_bot.
+3. Sign in one of two ways:
+   - **With email.** In the "New account" block, enter your email, a password of at least 8 characters, the password again, and choose your country: the payment currency depends on it. Click "Create account". Already have an account? Use the "Already have an account" block with your email and password.
+   - **With Telegram.** Click the Telegram button. Telegram sends you the message "We received a request to log in". Tap "Accept" in it. The page shows this in a picture. The sign-in bot is @teojarvis_bot.
 
-No password. The 14-day trial starts with your first sign-in.
+Enter your password only on that page: Teo does not see or store it. We do not send emails yet. The 14-day trial starts with your first sign-in.
 
 On first launch Teo downloads two models: speech recognition (about 640 MB) and memory (about 130 MB). That is about 5 minutes at 20 Mbit/s. You can go through the steps while they download.
 
@@ -140,13 +142,13 @@ On first launch Teo downloads two models: speech recognition (about 640 MB) and 
 
 ### Connect Google Drive, mail and calendar
 
-Google Drive and other services connect through Claude. Mail and calendar are set up separately. Guide: [docs/CONNECTORS.en.md](docs/CONNECTORS.en.md).
+Google Drive, Google Calendar and other services connect through Claude. Mail is set up in Teo separately. Guide: [docs/CONNECTORS.en.md](docs/CONNECTORS.en.md).
 
 ## Beta: 14 days free, then $10 a month
 
 | | |
 |---|---|
-| **Trial** | 14 days, every feature. No card asked. It starts with your first sign-in |
+| **Trial** | 14 days, every feature. No card asked. It starts with your first sign-in. You get it once per email, once per Telegram account and once per computer |
 | **After that** | $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No automatic charges: you renew yourself |
 | **Where to pay** | In Teo: Settings, "Teo account and subscription" |
 | **Two ways** | "Pay with a Russian bank card" («Оплата Россия»): a card from a Russian bank, paid at once. "Pay with a card from another country" («Оплата другие страны»): a card from a bank outside Russia, the payment link arrives by SMS |

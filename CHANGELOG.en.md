@@ -6,6 +6,29 @@ Here are the changes a person will notice. The newest version is on top. Install
 
 The Teo interface is in Russian for now, so the Russian names of buttons and sections are given in brackets.
 
+## 1.0.0-beta.2 (November 13, 2026)
+
+Fixes and new features after the first hands-on check of the beta.
+
+What's new:
+
+- Sign in to Teo with email and password, or with Telegram. With email you choose your country: the payment currency depends on it. The sign-in page is in Russian, Kazakh and English.
+- The free trial is given once per email, once per Telegram account and once per computer.
+- Wake word setup: say «Тео» three times, with a one-second pause. The first setup command is «Тео, найди последний PDF в Загрузках» ("Teo, find the latest PDF in Downloads").
+- The word «Тео» in the middle of someone else's sentence does not wake Teo. When speech is not meant for it, Teo says «Понял, это не мне.» ("Got it, that's not for me.") once and stays silent.
+- Teo saves your Claude usage limits.
+- A "Quit Teo" button («Выйти из Тео») on the Dashboard and in the menu of the Teo icon next to the clock.
+- Connections show logos and one clear status. "Calendar by link" is gone: Google Calendar connects through Claude connectors.
+- The days left in your trial are shown in Settings, "Teo account and subscription". Teo reminds you 3 days before the end, 1 day before and on the last day.
+- A new version shows up as a card on Home with an "Update" button («Обновить»). On Mac the "Download" button («Скачать») opens the release page.
+- Choose the browser Teo works in: Connections, the "Teo browser" card («Браузер Тео»). By default it is the main browser of your system.
+- Projects in Work: Teo first asks what you need and writes a plan. Then it builds the page, checks it and opens it for you.
+
+Known issues, not fixed yet:
+
+- We do not send emails yet, and the email address is not verified. Forgot your password? Sign in with Telegram if it is linked, or write to support.
+- Everything else from the beta 1 list still applies.
+
 ## 1.0.0-beta.1 (November 13, 2026)
 
 The first public beta. 14 days free with every feature, then $10 a month.

@@ -32,7 +32,14 @@ People call voice assistants that do things for you "Jarvis". Teo is such an ass
 
 ### How do I sign in to Teo?
 
-You need a Telegram account. In Teo setup click "Create account" («Создать аккаунт»). On the sign-in page match the code with the code in the Teo window, tick both boxes and confirm the sign-in through Telegram. No password. The sign-in bot is @teojarvis_bot.
+Two ways: with email and password, or with Telegram. In Teo setup click "Create account" («Создать аккаунт») or "Sign in" («Войти»). A sign-in page opens: match the code with the code in the Teo window and tick both boxes.
+
+- **With email.** Enter your email, a password of at least 8 characters, the password again, and choose your country: the payment currency depends on it. We do not send emails yet, and the email address is not verified.
+- **With Telegram.** Click the Telegram button. Telegram sends you the message "We received a request to log in". Tap "Accept" in it. The sign-in bot is @teojarvis_bot.
+
+You can add the second sign-in method later on the [teo.onai.academy/account](https://teo.onai.academy/account) page.
+
+Forgot your password? If a Telegram account is linked, sign in with it on the account page and change the password. If not, write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com).
 
 ### What happens after 14 days?
 
@@ -57,7 +64,7 @@ One account works on one computer. You can move it once in 30 days. On the [teo.
 
 ### Is the trial given a second time?
 
-No. The trial is given once per Telegram account and once per computer.
+No. The trial is given once per email, once per Telegram account and once per computer.
 
 ### How do I delete my account?
 
@@ -115,6 +122,10 @@ You can go through the setup steps while the files download.
 
 See the [requirements](REQUIREMENTS.en.md). On first setup Teo measures your computer (up to 10 seconds, silent) and names a level. Between minimum and recommended, Teo switches to a light mode and tells you what is turned off. Below minimum, Teo says so honestly and the trial does not start.
 
+### How do I update Teo?
+
+A new version appears as a card on Home. Click "Update" («Обновить»): Teo downloads it and restarts by itself, in about a minute. On Mac the "Download" button («Скачать») opens the release page: install the new version over the old one, as you did the first time.
+
 ### How do I uninstall Teo?
 
 Windows: Settings, Apps, find Teo and click Uninstall. Teo asks whether to erase memory, settings and models.
@@ -143,17 +154,23 @@ macOS: drag Teo from Applications to the Trash. Data lives in `~/Library/Applica
 
 Press the Teo key again or click "Stop" in the capsule. While the microphone is open, the words "stop" and "enough" work too.
 
+### How do I quit Teo completely?
+
+Click "Quit Teo" («Выйти из Тео») at the top of the Dashboard or in the menu of the Teo icon next to the clock. Teo asks «Тео перестанет слушать. Выйти?» ("Teo will stop listening. Quit?"). Click "Quit" («Выйти»).
+
 ### Teo answers itself
 
 While Teo speaks or plays a sound, the microphone is deaf. If Teo still took its own answer for a command, press "Send feedback" and tell us the app and the voice you used.
 
 ### How do I connect Google Drive, mail and calendar?
 
-Google Drive and other services connect through Claude, four steps. Mail and calendar are set up separately. All in [CONNECTORS.en.md](CONNECTORS.en.md).
+Google Drive, Google Calendar and other services connect through Claude connectors, four steps. Mail is set up in Teo separately, with an app password. All in [CONNECTORS.en.md](CONNECTORS.en.md).
 
 ### What is the Teo browser?
 
 A separate browser with its own profile. Sign in to the services you need and the sign-ins stay on this computer only. Teo can do anything you ask in it on your behalf. Teo warns you before the first launch.
+
+You choose which browser Teo works in under Connections, on the "Teo browser" card («Браузер Тео»). By default it is the main browser of your system. Chrome, Edge and Yandex Browser work.
 
 ### Teo got it wrong. How do I fix that?
 
