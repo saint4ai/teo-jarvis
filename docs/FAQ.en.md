@@ -10,7 +10,7 @@ Teo is a voice assistant for your computer, in the spirit of Jarvis. Claude runs
 
 ### Do I need a Claude subscription?
 
-Yes. Teo thinks and answers through Claude, so you need Claude Pro or higher (about $20 a month on the Anthropic site), or your own Anthropic API key. Teo guides you through the sign-in in the setup wizard.
+Yes. Teo thinks and answers through Claude, so you need Claude Pro or higher (about $20 a month on the Anthropic site), or your own Anthropic API key. Teo guides you through the sign-in in the setup wizard. Claude is not available in every country: check that it opens for you before you pay.
 
 ### Do I need Python, Node or a terminal?
 
@@ -18,7 +18,7 @@ No. Everything is inside the installer or downloads on first launch.
 
 ### How much does Teo cost?
 
-The beta is free for 14 days with every feature. No card needed.
+The first 14 days are free with every feature. No card needed. After that it is $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No auto-renewal: you renew yourself. More: [Account and payment](#account-and-payment).
 
 ### Which languages work?
 
@@ -27,6 +27,41 @@ The interface and answers are in Russian. Speech recognition covers Russian and 
 ### Why "Jarvis"?
 
 People call voice assistants that do things for you "Jarvis". Teo is such an assistant. It has no connection to any company or character with that name.
+
+## Account and payment
+
+### How do I sign in to Teo?
+
+You need a Telegram account. In the wizard click "Create account". On the sign-in page match the code with the code in the Teo window, tick both boxes and confirm the sign-in through Telegram. No password. The sign-in bot is @teojarvis_bot.
+
+### What happens after 14 days?
+
+AI answers switch off until you pay for the subscription. Commands without AI, memory and settings stay. Teo shows a screen with the payment buttons.
+
+### How do I pay?
+
+In Teo: Settings, "Teo account and subscription". Two ways:
+
+- "Payment Russia" («Оплата Россия»): a card from a Russian bank, paid at once on the page.
+- "Payment other countries" («Оплата другие страны»): a card from a bank outside Russia, the payment link arrives by SMS.
+
+You enter the card details only on the payment page. Teo never receives them. The amount in the payment currency is shown before you pay. There is no auto-renewal: you renew yourself.
+
+### Can I get a refund?
+
+Yes. Write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com) or press "Leave feedback" in Teo. We refund the days that have not started yet. If Anthropic blocked your Claude account, we refund the last payment if less than 30 days have passed. All terms are in the [offer](https://teo.onai.academy/terms) (Russian and Kazakh).
+
+### Can I use Teo on two computers?
+
+One account works on one computer. You can move it once in 30 days. On the [teo.onai.academy/account](https://teo.onai.academy/account) page you can unlink a computer.
+
+### Is the trial given a second time?
+
+No. The trial is given once per Telegram account and once per computer.
+
+### How do I delete my account?
+
+On the [teo.onai.academy/account](https://teo.onai.academy/account) page. Deleting closes the subscription. On your request we refund the days that have not started yet.
 
 ## Installing
 
@@ -62,7 +97,7 @@ macOS:
 shasum -a 256 <file>.dmg
 ```
 
-The sums must match character for character. If they do not, do not run the file and open an [issue](https://github.com/saint4ai/teo-jarvis/issues/new/choose).
+The sums must match character for character. If they do not, do not run the file and write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com).
 
 ### How much do I download?
 
@@ -112,9 +147,9 @@ Press the Teo key again or click "Stop" in the capsule. While the microphone is 
 
 While Teo speaks or plays a sound, the microphone is deaf. If Teo still took its own answer for a command, press "Leave feedback" and tell us the app and the voice you used.
 
-### How do I connect Gmail and Google Drive?
+### How do I connect Google Drive, mail and calendar?
 
-Through Claude. Four steps: [CONNECTORS.md](CONNECTORS.md).
+Google Drive and other services connect through Claude, four steps. Mail and calendar are set up separately. All in [CONNECTORS.md](CONNECTORS.md).
 
 ### What is the Teo browser?
 
@@ -128,7 +163,7 @@ Say "Teo, remember that ..." and explain the right way. For disputed cases Teo k
 
 ### Where does my data go?
 
-In short: memory, chats, logs and keys stay on your computer. To answer, Claude receives what you said and the parts of files, mail and pages you asked Teo to open. Full table: [PRIVACY.md](PRIVACY.md).
+In short: memory, chats, logs and keys stay on your computer. To answer, Claude receives what you said and the parts of files, mail and pages you asked Teo to open. Full table: [PRIVACY.md](PRIVACY.md). The full policy on the Teo server: [teo.onai.academy/privacy](https://teo.onai.academy/privacy).
 
 ### Can Teo send or delete something without asking?
 
@@ -143,7 +178,7 @@ Any of these:
 - Say "Teo, log a bug".
 - Press "Support report" in Settings. The report is built and sent only when you press the button. It holds no keys and no chats.
 - Press "Leave feedback" in the same place.
-- Open an [issue](https://github.com/saint4ai/teo-jarvis/issues/new/choose). Do not attach keys, passwords or private chats.
+- Write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com) and give your account number: it is on the [teo.onai.academy/account](https://teo.onai.academy/account) page. Do not attach keys, passwords or private chats.
 
 ### What does Teo send to the developers by itself?
 

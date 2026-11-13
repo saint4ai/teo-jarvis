@@ -6,12 +6,12 @@
 
 **Jarvis for your own computer.** Say "Teo" and it opens apps, finds files, reads your mail or edits a spreadsheet. It runs on Claude. Windows and macOS.
 
-Beta for early users: **14 days free, every feature included.**
+Beta 1.0.0-beta.1: **14 days free, every feature included. Then $10 a month.**
 
 ![Status](https://img.shields.io/badge/status-beta-e8c887?style=flat-square)
 ![Windows](https://img.shields.io/badge/Windows-10%20and%2011-3b82f6?style=flat-square&logo=windows&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-13%2B%20%28Apple%20Silicon%29-555?style=flat-square&logo=apple&logoColor=white)
-![Free beta](https://img.shields.io/badge/beta-14%20days%20free-2ea043?style=flat-square)
+![Price](https://img.shields.io/badge/beta-14%20days%20free%2C%20then%20%2410%20a%20month-2ea043?style=flat-square)
 ![Runs on Claude](https://img.shields.io/badge/runs%20on-Claude-d97757?style=flat-square)
 
 **[Download the beta](https://github.com/saint4ai/teo-jarvis/releases)** · [Install](#install) · [Features](#what-teo-does) · [FAQ](docs/FAQ.en.md) · [Русский](README.md)
@@ -22,7 +22,7 @@ Beta for early users: **14 days free, every feature included.**
 
 Teo is a voice assistant that lives on your computer. It hears the wake word "Teo", understands speech and does the work inside your apps. The interface is in Russian today. English speech recognition works too.
 
-Claude runs inside. You do not need a terminal, config files or permission prompts. Install Teo, sign in to Claude and talk.
+Claude runs inside, through your own Claude subscription. You do not need a terminal, config files or permission prompts. Install Teo, sign in to Claude and talk.
 
 - A capsule at the top of the screen shows when Teo listens, thinks or answers.
 - A control panel with five buttons keeps everything in one place: Home, Tasks, Skills, Connections, Settings.
@@ -36,7 +36,8 @@ Claude runs inside. You do not need a terminal, config files or permission promp
 |---|---|
 | **Apps and windows.** Open, close, snap to a side, lower the volume | "Open Telegram", "Snap Chrome to the left" |
 | **Files and documents.** Find a file, read it, edit Word and Excel, make a PDF | "Find the file contract", "Make an Excel sheet of monthly expenses" |
-| **Mail and services.** Gmail, Google Drive and other services through Claude connectors | "What important mail came in", "Reply to the last client email" |
+| **Mail and calendar.** Gmail, Yandex and Mail.ru with an app password. Calendar by link | "What important mail came in", "Reply to the last client email" |
+| **Google Drive and other services** through Claude connectors | "Find the contract on Drive" |
 | **WhatsApp and Telegram.** Sign in with a QR code or a phone number. Teo reads chats and replies after your "yes" | "Who is waiting for a reply", "Write to Marina: I will be there in an hour" |
 | **Voice messages.** Teo transcribes them and gives you the short version | "What is in Marina's voice message" |
 | **Web video.** Pause, next episode, full screen on YouTube and other sites | "Pause the video", "Full screen" |
@@ -77,50 +78,95 @@ All screenshots use demo data. Names, emails and numbers are made up.
 - A Claude Pro subscription or higher (about $20 a month on the Anthropic site). Or your own Anthropic API key.
 - 8 GB of RAM and 3 GB of disk space. 16 GB and 5 GB on an SSD is better.
 - A microphone and an internet connection.
+- A Telegram account: you sign in to Teo with it.
 
 Details: [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md).
 
 ### Windows
 
-1. Open [Releases](https://github.com/saint4ai/teo-jarvis/releases) and download `Teo-Setup-<version>.exe` from the latest release.
-2. The browser may warn that the file is rarely downloaded. Click Keep.
-3. Run the file. No administrator rights needed.
-4. Windows shows "Windows protected your PC". Click "More info", then "Run anyway".
-5. Wait for the install to finish. Teo opens and walks you through setup. It takes about 5 minutes.
+**1.** Open [Releases](https://github.com/saint4ai/teo-jarvis/releases) and download `Teo-Setup-1.0.0-beta.1.exe`. The browser may ask about the file: click Keep.
 
-The warning appears because the installer has no paid code signing certificate yet. The file is the same. You can verify it with the SHA-256 sum in the release notes: [how to verify](docs/FAQ.en.md#how-do-i-verify-the-file).
+**2.** Run the file with a double click. No administrator rights needed.
+
+<img src="assets/install/windows-1-more-info.png" alt="Windows window: click More info" width="560">
+
+**3.** Windows warns about an unknown publisher. Click "More info".
+
+<img src="assets/install/windows-2-run-anyway.png" alt="Windows window: click Run anyway" width="560">
+
+**4.** Click "Run anyway".
+
+**5.** Wait for the install to finish. Teo opens and walks you through setup. It takes about 5 minutes.
+
+The windows in the pictures are a drawn scheme of the real Windows windows. The window appears because the installer has no paid code signing certificate yet. The file is the same. You can verify it with the SHA-256 sum in the release notes: [how to verify](docs/FAQ.en.md#how-do-i-verify-the-file). The file will not open? [FAQ](docs/FAQ.en.md#installing).
 
 ### macOS
 
-1. Download the `.dmg` file from the latest release in [Releases](https://github.com/saint4ai/teo-jarvis/releases).
-2. Open the image and drag Teo to Applications.
-3. Launch Teo. macOS refuses because the app has no Apple signature yet.
-4. Open System Settings, Privacy and Security. Scroll down.
-5. Click "Open Anyway" and enter your Mac password.
-6. Teo asks for microphone and other permissions one by one, when it first needs them.
+The Mac image is added to the release separately from the Windows installer. If there is no `.dmg` file in the release yet, the Mac version is being prepared.
+
+![Teo disk image: drag Teo to Applications](assets/install/mac-1-dmg.png)
+
+**1.** Download the `.dmg` file from [Releases](https://github.com/saint4ai/teo-jarvis/releases), open it and drag Teo to Applications.
+
+<img src="assets/install/mac-2-dialog.png" alt="macOS warning: click Done" width="320">
+
+**2.** Launch Teo. macOS warns that the app is not verified. Click "Done" (the button in Russian macOS is «Готово»). Do not click the button that moves Teo to the Bin: it removes Teo.
+
+![Security settings: click Open Anyway](assets/install/mac-3-open-anyway.png)
+
+**3.** Open System Settings, Privacy and Security. Scroll down to Security and click "Open Anyway".
+
+**4.** Enter your Mac password or use Touch ID. You do this once.
+
+The pictures show the name "Тео Проба": that is a trial app with the same signature. You will see "Тео". A window says the app is "damaged"? Click OK, Teo is running. Did not help? [Detailed guide](docs/INSTALL-MAC.en.md).
+
+After launch macOS asks for microphone and other permissions one by one, when Teo first needs them.
 
 ### First launch
 
-A setup wizard walks you through: computer check, microphone, wake word, Claude sign-in, voice, first command. You can skip any step and return later.
+A setup wizard walks you through: computer check, Teo account, microphone, wake word, Claude sign-in, voice, first command.
+
+**Teo account.** Click "Create account" (in the app: «Создать аккаунт»). Teo opens a sign-in page in your browser.
+
+1. Match the code on the page with the code in the Teo window.
+2. Tick both boxes: terms and offer, data processing. Click "Continue".
+3. Confirm the sign-in through Telegram. The sign-in bot is @teojarvis_bot.
+
+No password. The 14-day trial starts with your first sign-in.
 
 On first launch Teo downloads two models: speech recognition (about 640 MB) and memory (about 130 MB). That is about 5 minutes at 20 Mbit/s. You can go through the steps while they download.
 
-### Connect Gmail and Google Drive
+> The wizard screenshots use demo data. In the beta there is one more step, "Teo account", between the greeting and the microphone.
 
-Services connect through Claude. Four steps: [docs/CONNECTORS.md](docs/CONNECTORS.md).
+### Connect Google Drive, mail and calendar
 
-## Beta: 14 days free
+Google Drive and other services connect through Claude. Mail and calendar are set up separately. Guide: [docs/CONNECTORS.md](docs/CONNECTORS.md).
 
-- You need a Teo account. Sign in with Telegram.
-- The trial lasts 14 days with every feature. No card needed.
-- Tell us what is missing or broken in [Issues](https://github.com/saint4ai/teo-jarvis/issues/new/choose), or press "Leave feedback" in the app: Settings, Support block.
-- Teo sends error reports to the developers without your conversations, files or keys. You can turn this off in Settings.
+## Beta: 14 days free, then $10 a month
+
+| | |
+|---|---|
+| **Trial** | 14 days, every feature. No card asked. It starts with your first sign-in |
+| **After that** | $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No auto-renewal: you renew yourself |
+| **Where to pay** | In Teo: Settings, "Teo account and subscription" |
+| **Two ways** | "Payment Russia" («Оплата Россия»): a card from a Russian bank, paid at once. "Payment other countries" («Оплата другие страны»): a card from a bank outside Russia, the payment link arrives by SMS |
+| **Refund** | We refund the days that have not started yet. Terms in the [offer](https://teo.onai.academy/terms) |
+| **After 14 days without payment** | AI answers switch off. Commands without AI, memory and settings stay |
+| **Computer** | One account, one computer. You can move it once in 30 days |
+
+You can see your account, subscription and payments on the [teo.onai.academy/account](https://teo.onai.academy/account) page. You can also unlink the computer or delete the account there.
+
+## Support
+
+- Email: [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com). Give your account number: it is on the account page.
+- The "Leave feedback" form in Teo: Settings, Support block. Send ideas there too.
+- Teo sends error reports to the developers by itself, without your conversations, files or keys. You can turn this off in Settings, Privacy block.
 
 ## Privacy
 
 Memory, logs, chats and keys stay on your computer. To answer, Claude receives what you said and the parts of files, mail and pages you asked Teo to open. The cloud voice runs only with your own key.
 
-Details: [docs/PRIVACY.md](docs/PRIVACY.md).
+Details: [docs/PRIVACY.md](docs/PRIVACY.md). The full policy on the Teo server: [teo.onai.academy/privacy](https://teo.onai.academy/privacy).
 
 ## Teo and other Jarvis projects
 
@@ -130,7 +176,7 @@ Teo started as a fork of the open-source [JARVIS](https://github.com/adewaskar/j
 
 ## Roadmap and docs
 
-[Roadmap](docs/ROADMAP.md) (directions, no dates) · [Changelog](CHANGELOG.md) · [FAQ](docs/FAQ.en.md) · [Requirements](docs/REQUIREMENTS.md) · [Privacy](docs/PRIVACY.md) · [Security](SECURITY.md) · [License](LICENSE)
+[Roadmap](docs/ROADMAP.md) (directions, no dates) · [Changelog](CHANGELOG.md) · [FAQ](docs/FAQ.en.md) · [Mac install](docs/INSTALL-MAC.en.md) · [Requirements](docs/REQUIREMENTS.md) · [Privacy](docs/PRIVACY.md) · [Offer](https://teo.onai.academy/terms) (Russian and Kazakh) · [Security](SECURITY.md) · [License](LICENSE)
 
 ---
 

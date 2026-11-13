@@ -2,8 +2,8 @@
 
 [Назад к README](../README.md) · [Back to README](../README.en.md)
 
-Это краткое описание для бета-версии. Полная политика конфиденциальности появится к выходу платной версии.
-This is a short description for the beta. The full privacy policy comes with the paid version.
+Это краткое описание. Полная политика конфиденциальности на сервере Тео: [teo.onai.academy/privacy](https://teo.onai.academy/privacy), есть казахская версия.
+This is a short description. The full privacy policy is on the Teo server: [teo.onai.academy/privacy](https://teo.onai.academy/privacy), a Kazakh version is available.
 
 ## По-русски
 

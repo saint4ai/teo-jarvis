@@ -4,13 +4,13 @@
 
 Нашёл уязвимость в Тео? Не создавай публичный Issue.
 
-1. Открой вкладку **Security** этого репозитория и нажми **Report a vulnerability**. Сообщение увидят только разработчики.
+1. Открой вкладку **Security** этого репозитория и нажми **Report a vulnerability**. Сообщение увидят только разработчики. Не получается: напиши на [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com) с темой «Уязвимость».
 2. Опиши, что нашёл, как это повторить и что может случиться.
 3. Не прикладывай ключи, пароли и чужие личные данные.
 
 Found a vulnerability in Teo? Do not open a public issue.
 
-1. Open the **Security** tab of this repository and click **Report a vulnerability**. Only the developers see the report.
+1. Open the **Security** tab of this repository and click **Report a vulnerability**. Only the developers see the report. If that does not work, write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com) with the subject "Vulnerability".
 2. Describe what you found, how to reproduce it and what can happen.
 3. Do not attach keys, passwords or other people's personal data.
 
