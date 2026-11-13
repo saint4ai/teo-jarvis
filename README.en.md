@@ -38,7 +38,7 @@ Claude runs inside, through your own Claude subscription. You do not need a term
 | **Files and documents.** Find a file, read it, edit Word and Excel, make a PDF | "Find the file contract", "Make an Excel sheet of monthly expenses" |
 | **Mail and calendar.** Gmail, Yandex and Mail.ru with an app password. Calendar by link | "What important mail came in", "Reply to the last client email" |
 | **Google Drive and other services** through Claude connectors | "Find the contract on Drive" |
-| **WhatsApp and Telegram.** Sign in with a QR code or a phone number. Teo reads chats and replies after your "yes" | "Who is waiting for a reply", "Write to Marina: I will be there in an hour" |
+| **WhatsApp and Telegram.** Sign in with a QR code or a phone number. Teo reads chats and replies. A reply to a person you named goes out after 5 seconds, and you can cancel it in that time. If the recipient is unclear or the task involves someone else's text, Teo asks with a card first | "Who is waiting for a reply", "Write to Marina: I will be there in an hour" |
 | **Voice messages.** Teo transcribes them and gives you the short version | "What is in Marina's voice message" |
 | **Web video.** Pause, next episode, full screen on YouTube and other sites | "Pause the video", "Full screen" |
 | **Memory and reminders.** Teo remembers who you are and where things live | "Remember that reports should be short", "Remind me at six to send the invoice" |
