@@ -33,7 +33,7 @@ Teo setup (the first-run wizard) takes you to the Claude sign-in. After that, th
 
 ## Actions inside services
 
-By default Teo only reads. The "Allow actions in connections" switch («Разрешить действия в подключениях») turns actions on. Every action goes through a confirmation card with "Yes" and "No". Teo does not make payments.
+By default Teo only reads. The "Allow actions in connections" switch («Разрешить действия в подключениях») turns actions on. Every action goes through a confirmation card with "Yes" and "No". Teo does not make payments or money transfers, even after a "yes".
 
 ## Telegram and WhatsApp
 

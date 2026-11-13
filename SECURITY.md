@@ -1,8 +1,8 @@
-# Безопасность / Security
+# Безопасность
 
 [English version](SECURITY.en.md) · [Назад к README](README.md)
 
-## Как сообщить об уязвимости / Reporting a vulnerability
+## Как сообщить об уязвимости
 
 Нашёл уязвимость в Тео? Не создавай публичный Issue.
 
@@ -10,28 +10,17 @@
 2. Опиши, что нашёл, как это повторить и что может случиться.
 3. Не прикладывай ключи, пароли и чужие личные данные.
 
-Found a vulnerability in Teo? Do not open a public issue.
-
-1. Open the **Security** tab of this repository and click **Report a vulnerability**. Only the developers see the report. If that does not work, write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com) with the subject "Vulnerability".
-2. Describe what you found, how to reproduce it and what can happen.
-3. Do not attach keys, passwords or other people's personal data.
-
-## На что мы смотрим особенно / What we care about most
+## На что мы смотрим особенно
 
 - Чужой текст (чаты, почта, сайты, файлы) не должен управлять Тео.
-- Отправка сообщений, закрытие программ и чистка идут только после «да» человека.
+- Удаление, чистка и установка программ идут только после «да» человека. Сообщение уходит через 5 секунд, за это время его можно отменить. Программу Тео закрывает без вопроса, только если человек сам её назвал. Кнопку оплаты Тео не нажимает.
 - Ключи и входы не попадают в окно программы, журнал и отчёты.
 - Подпись обновлений и проверка суммы установщика.
 
-- Foreign text (chats, mail, websites, files) must never steer Teo.
-- Sending messages, closing apps and cleanup need a human "yes".
-- Keys and sign-ins must not reach the app window, logs or reports.
-- Update signature and installer checksum verification.
+## Какие версии поддерживаем
 
-## Какие версии поддерживаем / Supported versions
+Последняя бета и последняя стабильная версия.
 
-Последняя бета и последняя стабильная версия. / The latest beta and the latest stable release.
+## Как проверить установщик
 
-## Как проверить установщик / Verifying an installer
-
-Сумма SHA-256 каждого установщика записана в описании выпуска. Инструкция: [FAQ](docs/FAQ.md#как-проверить-что-файл-настоящий). / Every installer has a SHA-256 sum in the release notes. See the [FAQ](docs/FAQ.en.md#how-do-i-verify-the-file).
+Сумма SHA-256 каждого установщика записана в описании выпуска. Инструкция: [FAQ](docs/FAQ.md#как-проверить-что-файл-настоящий).

@@ -10,7 +10,7 @@ Teo is a voice assistant for your computer, in the spirit of Jarvis. Claude runs
 
 ### Do I need a Claude subscription?
 
-Yes. Teo thinks and answers through Claude, so you need Claude Pro or higher (from $20 a month on the Anthropic site), or your own Anthropic API key. Teo guides you through the sign-in in the setup wizard. Claude is not available in every country: check that it opens for you before you pay.
+Yes. Teo thinks and answers through Claude, so you need Claude Pro or higher (from $20 a month on the Anthropic site), or your own Anthropic API key. Teo setup guides you through the sign-in. Claude is not available in every country: check that it opens for you before you pay.
 
 ### Do I need Python, Node or a terminal?
 
@@ -18,7 +18,7 @@ No. Everything is inside the installer or downloads on first launch.
 
 ### How much does Teo cost?
 
-The first 14 days are free with every feature. No card needed. After that it is $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No auto-renewal: you renew yourself. More: [Account and payment](#account-and-payment).
+The first 14 days are free with every feature. No card needed. After that it is $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No automatic charges: you renew yourself. More: [Account and payment](#account-and-payment).
 
 ### Which languages work?
 
@@ -32,7 +32,7 @@ People call voice assistants that do things for you "Jarvis". Teo is such an ass
 
 ### How do I sign in to Teo?
 
-You need a Telegram account. In the wizard click "Create account". On the sign-in page match the code with the code in the Teo window, tick both boxes and confirm the sign-in through Telegram. No password. The sign-in bot is @teojarvis_bot.
+You need a Telegram account. In Teo setup click "Create account" («Создать аккаунт»). On the sign-in page match the code with the code in the Teo window, tick both boxes and confirm the sign-in through Telegram. No password. The sign-in bot is @teojarvis_bot.
 
 ### What happens after 14 days?
 
@@ -42,14 +42,14 @@ AI answers switch off until you pay for the subscription. Commands without AI, m
 
 In Teo: Settings, "Teo account and subscription". Two ways:
 
-- "Payment Russia" («Оплата Россия»): a card from a Russian bank, paid at once on the page.
-- "Payment other countries" («Оплата другие страны»): a card from a bank outside Russia, the payment link arrives by SMS.
+- "Pay with a Russian bank card" («Оплата Россия»): a card from a Russian bank, paid at once on the page.
+- "Pay with a card from another country" («Оплата другие страны»): a card from a bank outside Russia, the payment link arrives by SMS.
 
-You enter the card details only on the payment page. Teo never receives them. The amount in the payment currency is shown before you pay. There is no auto-renewal: you renew yourself.
+You enter the card details only on the payment page. Teo never receives them. The amount in the payment currency is shown before you pay. There are no automatic charges: you renew yourself.
 
 ### Can I get a refund?
 
-Yes. Write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com) or press "Leave feedback" in Teo. We refund the days that have not started yet. If Anthropic blocked your Claude account, we refund the last payment if less than 30 days have passed. All terms are in the [offer](https://teo.onai.academy/terms) (Russian and Kazakh).
+Yes. Write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com) or press "Send feedback" («Оставить отзыв») in Teo. We refund the days that have not started yet. If Anthropic blocked your Claude account, we refund the last payment if less than 30 days have passed. All terms are in the [offer](https://teo.onai.academy/terms) (Russian and Kazakh).
 
 ### Can I use Teo on two computers?
 
@@ -109,11 +109,11 @@ The installer is about 300 MB. On first launch Teo downloads about 770 MB more: 
 | 20 Mbit/s | about 5 minutes |
 | 100 Mbit/s | about 1 minute |
 
-You can go through the wizard steps while the files download.
+You can go through the setup steps while the files download.
 
 ### Will my computer run Teo?
 
-See the [requirements](REQUIREMENTS.en.md). On first setup Teo measures your computer (about 15 seconds, silent) and names a level. Between minimum and recommended, Teo switches to a light mode and tells you what is turned off. Below minimum, Teo says so honestly and the trial does not start.
+See the [requirements](REQUIREMENTS.en.md). On first setup Teo measures your computer (up to 10 seconds, silent) and names a level. Between minimum and recommended, Teo switches to a light mode and tells you what is turned off. Below minimum, Teo says so honestly and the trial does not start.
 
 ### How do I uninstall Teo?
 
@@ -133,7 +133,7 @@ macOS: drag Teo from Applications to the Trash. Data lives in `~/Library/Applica
 
 ### Teo does not hear the wake word
 
-1. Check the microphone in the wizard step "Microphone" or in Settings.
+1. Check the microphone in the "Microphone" setup step or in Settings.
 2. Windows: Settings, Privacy, Microphone. Turn on "Let desktop apps access your microphone".
 3. macOS: System Settings, Privacy and Security, Microphone. Turn Teo on.
 4. A headset works better in a noisy room.
@@ -145,7 +145,7 @@ Press the Teo key again or click "Stop" in the capsule. While the microphone is 
 
 ### Teo answers itself
 
-While Teo speaks or plays a sound, the microphone is deaf. If Teo still took its own answer for a command, press "Leave feedback" and tell us the app and the voice you used.
+While Teo speaks or plays a sound, the microphone is deaf. If Teo still took its own answer for a command, press "Send feedback" and tell us the app and the voice you used.
 
 ### How do I connect Google Drive, mail and calendar?
 
@@ -157,7 +157,7 @@ A separate browser with its own profile. Sign in to the services you need and th
 
 ### Teo got it wrong. How do I fix that?
 
-Say "Teo, remember that ..." and explain the right way. For disputed cases Teo keeps a log: control panel, Home, block "What Teo did and where it stumbled".
+Say "Teo, remember that ..." and explain the right way. For disputed cases Teo keeps a log: Dashboard, Home, the "What Teo did and where it got stuck" block («Что Тео сделал и где споткнулся»).
 
 ## Data and safety
 
@@ -167,7 +167,7 @@ In short: memory, chats, logs and keys stay on your computer. To answer, Claude 
 
 ### Can Teo send or delete something without asking?
 
-No. Sending messages, closing apps, cleanup and other risky actions go through a "Yes" or "No" card. Teo does not run text from chats, mail and websites as a command.
+It cannot delete without your "yes": deleting, cleanup and installing apps go only through a confirmation card with "Yes" and "No". Teo does a clear request right away. A message goes out after 5 seconds, and you can cancel it in that time. If the recipient is unclear, or Teo read someone else's text for this task, it asks with a card first. Teo does not run text from chats, mail and websites as a command.
 
 ## Bugs and feedback
 
@@ -177,7 +177,7 @@ Any of these:
 
 - Say "Teo, log a bug".
 - Press "Support report" in Settings. The report is built and sent only when you press the button. It holds no keys and no chats.
-- Press "Leave feedback" in the same place.
+- Press "Send feedback" in the same place.
 - Write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com) and give your account number: it is on the [teo.onai.academy/account](https://teo.onai.academy/account) page. Do not attach keys, passwords or private chats.
 
 ### What does Teo send to the developers by itself?

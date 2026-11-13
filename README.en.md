@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.png" alt="Teo: a Jarvis-style voice AI assistant for Windows and macOS. Listening capsule and a five-button control panel" width="100%">
+  <img src="assets/hero.png" alt="Teo: a Jarvis-style voice AI assistant for Windows and macOS. Listening capsule and a five-button Dashboard" width="100%">
 </p>
 
 # Teo: a Jarvis-style voice AI assistant for your computer
@@ -25,7 +25,7 @@ Teo is a voice assistant that lives on your computer. It hears the wake word "Te
 Claude runs inside, through your own Claude subscription. You do not need a terminal, config files or permission prompts. Install Teo, sign in to Claude and talk.
 
 - A capsule at the top of the screen shows when Teo listens, thinks or answers.
-- A control panel with five buttons keeps everything in one place: Home, Tasks, Skills, Connections, Settings.
+- A Dashboard with five buttons keeps everything in one place: Home, Work, Skills, Connections, Settings.
 - Teo comes as a normal installer. No Python, Node or other tools to set up first.
 
 ![Teo capsule: listening, working, speaking, asking before a risky action and showing agents](assets/screens/capsule-states.png)
@@ -46,11 +46,11 @@ Claude runs inside, through your own Claude subscription. You do not need a term
 | **Skills.** Ready-made abilities, plus new ones Teo writes for itself | "What skills do you have" |
 | **Dictation into any window.** Hold a key, speak, the text lands where your cursor is | Shift and the Teo key |
 
-Teo does a clear request right away. A message goes out after 5 seconds, and you can cancel it in that time. Deleting, money and installing apps happen only after you say "yes" on a card.
+Teo does a clear request right away. A message goes out after 5 seconds, and you can cancel it in that time. Deleting, money and installing apps happen only after you say "yes" on a confirmation card.
 
 ### Voice
 
-- **"Мужской 5" (Male 5)**, the on-device voice: free, works offline. Teo downloads it on first launch.
+- **"Male 5" («Мужской 5»)**, the on-device voice: free, works offline. Teo downloads it on first launch.
 - **ElevenLabs**: a lively cloud voice with your own key. Also needed for Kazakh.
 - **Text only**: answers appear on screen, no sound.
 
@@ -60,15 +60,15 @@ Speech recognition runs on your computer. Languages: Russian and English. Kazakh
 
 All screenshots use demo data. Names, emails and numbers are made up.
 
-| Home | Tasks |
+| Home | Work |
 |---|---|
-| ![Home screen of the Teo control panel](assets/screens/home.png) | ![Tasks screen of the Teo control panel](assets/screens/work.png) |
+| ![Home screen of the Teo Dashboard](assets/screens/home.png) | ![Work screen of the Teo Dashboard](assets/screens/work.png) |
 
 | Skills | Connections |
 |---|---|
-| ![Skills screen of the Teo control panel](assets/screens/skills.png) | ![Connections screen of the Teo control panel](assets/screens/connections.png) |
+| ![Skills screen of the Teo Dashboard](assets/screens/skills.png) | ![Connections screen of the Teo Dashboard](assets/screens/connections.png) |
 
-![Settings screen of the Teo control panel](assets/screens/settings.png)
+![Settings screen of the Teo Dashboard](assets/screens/settings.png)
 
 ## Install
 
@@ -124,7 +124,7 @@ After launch macOS asks for microphone and other permissions one by one, when Te
 
 ### First launch
 
-A setup wizard walks you through: computer check, Teo account, microphone, wake word, Claude sign-in, voice, first command.
+Teo setup walks you through: computer check, Teo account, microphone, wake word, Claude sign-in, voice, first command.
 
 **Teo account.** Click "Create account" (in the app: «Создать аккаунт»). Teo opens a sign-in page in your browser.
 
@@ -136,7 +136,7 @@ No password. The 14-day trial starts with your first sign-in.
 
 On first launch Teo downloads two models: speech recognition (about 640 MB) and memory (about 130 MB). That is about 5 minutes at 20 Mbit/s. You can go through the steps while they download.
 
-> The wizard screenshots use demo data. In the beta there is one more step, "Teo account", between the greeting and the microphone.
+> The setup screenshots use demo data. In the beta there is one more step, "Teo account", between the greeting and the microphone.
 
 ### Connect Google Drive, mail and calendar
 
@@ -147,9 +147,9 @@ Google Drive and other services connect through Claude. Mail and calendar are se
 | | |
 |---|---|
 | **Trial** | 14 days, every feature. No card asked. It starts with your first sign-in |
-| **After that** | $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No auto-renewal: you renew yourself |
+| **After that** | $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No automatic charges: you renew yourself |
 | **Where to pay** | In Teo: Settings, "Teo account and subscription" |
-| **Two ways** | "Payment Russia" («Оплата Россия»): a card from a Russian bank, paid at once. "Payment other countries" («Оплата другие страны»): a card from a bank outside Russia, the payment link arrives by SMS |
+| **Two ways** | "Pay with a Russian bank card" («Оплата Россия»): a card from a Russian bank, paid at once. "Pay with a card from another country" («Оплата другие страны»): a card from a bank outside Russia, the payment link arrives by SMS |
 | **Refund** | We refund the days that have not started yet. Terms in the [offer](https://teo.onai.academy/terms) |
 | **After 14 days without payment** | AI answers switch off. Commands without AI, memory and settings stay |
 | **Computer** | One account, one computer. You can move it once in 30 days |
@@ -159,7 +159,7 @@ You can see your account, subscription and payments on the [teo.onai.academy/acc
 ## Support
 
 - Email: [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com). Give your account number: it is on the account page.
-- The "Leave feedback" form in Teo: Settings, Support block. Send ideas there too.
+- The "Send feedback" form («Оставить отзыв») in Teo: Settings, Support block. Send ideas there too.
 - Teo sends error reports to the developers by itself, without your conversations, files or keys. You can turn this off in Settings, Privacy block.
 
 ## Privacy

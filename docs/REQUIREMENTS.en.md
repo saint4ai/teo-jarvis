@@ -16,7 +16,7 @@ Two levels. **Minimum:** Teo runs in a light mode, and some features are simpler
 | Internet | constant access to Claude | a stable connection |
 | GPU | any with DirectX 11 | integrated Intel UHD 620 or newer, or a separate graphics card |
 
-Intel Celeron and Pentium models from 2018 and 2020 are below the minimum: they do not have AVX2.
+Intel Celeron and Pentium models from 2018 to 2020 are below the minimum: they do not have AVX2.
 
 ## macOS
 

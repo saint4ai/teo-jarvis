@@ -25,7 +25,7 @@ You can set a retention period, and older data is then erased automatically. Wit
 | ElevenLabs | The answer text, to turn it into speech. Your speech audio when you dictate in Kazakh | Only if you chose the cloud voice or Kazakh and entered your own key | Choose "On-device voice" («Голос на компьютере») or "Text only" («Только текст») |
 | Hugging Face | Nothing of yours. Teo downloads models | Once, on first launch | Not possible without losing speech recognition |
 | GitHub | Nothing of yours. Once a day Teo requests the version description and downloads the update | 10 minutes after launch, then once a day | Turn it off in the update settings |
-| Teo account server | Your Telegram account number, subscription and trial dates, Teo version, the number of requests per day without their text. Fingerprints of your phone and computer, not the values themselves | At sign-in and once a day | Delete your account on the account page |
+| Teo account server | Your Telegram account number, subscription and trial dates, Teo version, the number of requests per day without their text. Fingerprints of your phone and computer, not the values themselves. If you sign in with email and password: your email address in encrypted form, the password only as a hash, and your country from a list. We do not send emails to that address yet | At sign-in and once a day | Delete your account on the account page |
 | Developer server | Teo errors and crashes, without conversations, files or keys | Automatically, in the beta | The switch in Settings, the "Privacy" block («Приватность») |
 | Developer server | A support report and feedback | Only when you press the button | Do not press it |
 
@@ -34,4 +34,4 @@ You can set a retention period, and older data is then erased automatically. Wit
 - Does not send conversations, files or chats to the developer server.
 - Does not store keys in plain text and does not pass them to the app window.
 - Does not run text from chats, mail, websites or files as a command.
-- Does not close apps or clean up files without your "yes". A message goes out after a 5-second undo window, so you can cancel it.
+- Does not delete or clean up files and does not install apps without your "yes". A message goes out after 5 seconds, and you can cancel it in that time.

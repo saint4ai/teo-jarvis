@@ -13,7 +13,7 @@ Found a vulnerability in Teo? Do not open a public issue.
 ## What we care about most
 
 - Text from outside (chats, mail, websites, files) must not control Teo (prompt injection).
-- Closing apps and cleanup happen only after the person says "yes". A message goes out after a 5-second undo window, so the person can cancel it.
+- Deleting, cleanup and installing apps happen only after the person says "yes". A message goes out after 5 seconds, and the person can cancel it in that time. Teo closes an app without asking only when the person named that app. Teo does not press payment buttons.
 - Keys and sign-ins must not reach the app window, the logs or the reports.
 - Update signatures and installer checksum verification.
 
