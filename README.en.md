@@ -6,12 +6,11 @@
 
 **Jarvis for your own computer.** Say "Teo" and it opens apps, finds files, reads your mail or edits a spreadsheet. It runs on Claude. Windows and macOS.
 
-Beta 1.0.0-beta.4: **30 days free, every feature included. Then $10 a month.** Teo needs a Claude subscription from $20 a month.
+Teo is in beta, version 1.0.0-beta.4. It needs a Claude subscription from $20 a month.
 
 ![Status](https://img.shields.io/badge/status-beta-e8c887?style=flat-square)
 ![Windows](https://img.shields.io/badge/Windows-10%20and%2011-3b82f6?style=flat-square&logo=windows&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-13%2B%20%28Apple%20Silicon%29-555?style=flat-square&logo=apple&logoColor=white)
-![Price](https://img.shields.io/badge/beta-30%20days%20free%2C%20then%20%2410%20a%20month-2ea043?style=flat-square)
 ![Runs on Claude](https://img.shields.io/badge/runs%20on-Claude-d97757?style=flat-square)
 
 **[Download the beta](https://github.com/saint4ai/teo-jarvis/releases/latest)** · [Install](#install) · [Features](#what-teo-does) · [FAQ](docs/FAQ.en.md) · [Author](#author) · [Русский](README.md)
@@ -50,7 +49,7 @@ Teo does a clear request right away. A message goes out after 5 seconds, and you
 
 ### Voice
 
-- **"Male 5" («Мужской 5»)**, the on-device voice: free, works offline. Teo downloads it on first launch.
+- **"Male 5" («Мужской 5»)**, the on-device voice: works offline. Teo downloads it on first launch.
 - **ElevenLabs**: a lively cloud voice with your own key. Also needed for Kazakh.
 - **Text only**: answers appear on screen, no sound.
 
@@ -131,10 +130,10 @@ Teo setup walks you through: computer check, Teo account, microphone, wake word,
 1. Match the code on the page with the code in the Teo window.
 2. Tick both boxes: terms and offer, data processing. Click "Continue".
 3. Sign in one of two ways:
-   - **With email.** In the "New account" block, enter your email, a password of at least 8 characters, the password again, and choose your country: the payment currency depends on it. Click "Create account". Already have an account? Use the "Already have an account" block with your email and password.
+   - **With email.** In the "New account" block, enter your email, a password of at least 8 characters, the password again, and choose your country. Click "Create account". Already have an account? Use the "Already have an account" block with your email and password.
    - **With Telegram.** Click the Telegram button. Telegram sends you the message "We received a request to log in". Tap "Accept" in it. The page shows this in a picture. The sign-in bot is @teojarvis_bot.
 
-Enter your password only on that page: Teo does not see or store it. We do not send emails yet. The 30-day trial starts with your first sign-in.
+Enter your password only on that page: Teo does not see or store it. We do not send emails yet.
 
 On first launch Teo downloads two models: speech recognition (about 640 MB) and memory (about 130 MB). That is about 5 minutes at 20 Mbit/s. You can go through the steps while they download.
 
@@ -144,19 +143,9 @@ On first launch Teo downloads two models: speech recognition (about 640 MB) and 
 
 Google Drive, Google Calendar and other services connect through Claude. Mail is set up in Teo separately. Guide: [docs/CONNECTORS.en.md](docs/CONNECTORS.en.md).
 
-## Beta: 30 days free, then $10 a month
+## Account
 
-| | |
-|---|---|
-| **Trial** | 30 days, every feature. No card asked. It starts with your first sign-in. You get it once per email, once per Telegram account and once per computer |
-| **After that** | $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No automatic charges: you renew yourself |
-| **Where to pay** | In Teo: Settings, "Teo account and subscription" |
-| **Two ways** | "Pay with a Russian bank card" («Оплата Россия»): a card from a Russian bank, paid at once. "Pay with a card from another country" («Оплата другие страны»): a card from a bank outside Russia, the payment link arrives by SMS |
-| **Refund** | We refund the days that have not started yet. Terms in the [offer](https://teo.onai.academy/terms) |
-| **After 30 days without payment** | AI answers switch off. Commands without AI, memory and settings stay |
-| **Computer** | One account, one computer. You can move it once in 30 days |
-
-You can see your account, subscription and payments on the [teo.onai.academy/account](https://teo.onai.academy/account) page. You can also unlink the computer or delete the account there.
+One account works on one computer. You can move it once in 30 days. You can see your account on the [teo.onai.academy/account](https://teo.onai.academy/account) page. You can also unlink the computer or delete the account there.
 
 ## Support
 

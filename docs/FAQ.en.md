@@ -10,15 +10,11 @@ Teo is a voice assistant for your computer, in the spirit of Jarvis. Claude runs
 
 ### Do I need a Claude subscription?
 
-Yes. Teo thinks and answers through Claude, so you need Claude Pro or higher (from $20 a month on the Anthropic site), or your own Anthropic API key. Teo setup guides you through the sign-in. Claude is not available in every country: check that it opens for you before you pay.
+Yes. Teo thinks and answers through Claude, so you need Claude Pro or higher (from $20 a month on the Anthropic site), or your own Anthropic API key. Teo setup guides you through the sign-in. Claude is not available in every country: check in advance that it opens for you.
 
 ### Do I need Python, Node or a terminal?
 
 No. Everything is inside the installer or downloads on first launch.
-
-### How much does Teo cost?
-
-The first 30 days are free with every feature. No card needed. After that it is $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No automatic charges: you renew yourself. More: [Account and payment](#account-and-payment).
 
 ### Which languages work?
 
@@ -28,47 +24,26 @@ The interface and answers are in Russian. Speech recognition covers Russian and 
 
 People call voice assistants that do things for you "Jarvis". Teo is such an assistant. It has no connection to any company or character with that name.
 
-## Account and payment
+## Account
 
 ### How do I sign in to Teo?
 
 Two ways: with email and password, or with Telegram. In Teo setup click "Create account" («Создать аккаунт») or "Sign in" («Войти»). A sign-in page opens: match the code with the code in the Teo window and tick both boxes.
 
-- **With email.** Enter your email, a password of at least 8 characters, the password again, and choose your country: the payment currency depends on it. We do not send emails yet, and the email address is not verified.
+- **With email.** Enter your email, a password of at least 8 characters, the password again, and choose your country. We do not send emails yet, and the email address is not verified.
 - **With Telegram.** Click the Telegram button. Telegram sends you the message "We received a request to log in". Tap "Accept" in it. The sign-in bot is @teojarvis_bot.
 
 You can add the second sign-in method later on the [teo.onai.academy/account](https://teo.onai.academy/account) page.
 
 Forgot your password? If a Telegram account is linked, sign in with it on the account page and change the password. If not, write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com).
 
-### What happens after 30 days?
-
-AI answers switch off until you pay for the subscription. Commands without AI, memory and settings stay. Teo shows a screen with the payment buttons.
-
-### How do I pay?
-
-In Teo: Settings, "Teo account and subscription". Two ways:
-
-- "Pay with a Russian bank card" («Оплата Россия»): a card from a Russian bank, paid at once on the page.
-- "Pay with a card from another country" («Оплата другие страны»): a card from a bank outside Russia, the payment link arrives by SMS.
-
-You enter the card details only on the payment page. Teo never receives them. The amount in the payment currency is shown before you pay. There are no automatic charges: you renew yourself.
-
-### Can I get a refund?
-
-Yes. Write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com) or press "Send feedback" («Оставить отзыв») in Teo. We refund the days that have not started yet. If Anthropic blocked your Claude account, we refund the last payment if less than 30 days have passed. All terms are in the [offer](https://teo.onai.academy/terms) (Russian and Kazakh).
-
 ### Can I use Teo on two computers?
 
 One account works on one computer. You can move it once in 30 days. On the [teo.onai.academy/account](https://teo.onai.academy/account) page you can unlink a computer.
 
-### Is the trial given a second time?
-
-No. The trial is given once per email, once per Telegram account and once per computer.
-
 ### How do I delete my account?
 
-On the [teo.onai.academy/account](https://teo.onai.academy/account) page. Deleting closes the subscription. On your request we refund the days that have not started yet.
+On the [teo.onai.academy/account](https://teo.onai.academy/account) page.
 
 ## Installing
 
