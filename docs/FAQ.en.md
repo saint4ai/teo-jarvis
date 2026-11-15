@@ -18,7 +18,7 @@ No. Everything is inside the installer or downloads on first launch.
 
 ### How much does Teo cost?
 
-The first 14 days are free with every feature. No card needed. After that it is $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No automatic charges: you renew yourself. More: [Account and payment](#account-and-payment).
+The first 30 days are free with every feature. No card needed. After that it is $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No automatic charges: you renew yourself. More: [Account and payment](#account-and-payment).
 
 ### Which languages work?
 
@@ -41,7 +41,7 @@ You can add the second sign-in method later on the [teo.onai.academy/account](ht
 
 Forgot your password? If a Telegram account is linked, sign in with it on the account page and change the password. If not, write to [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com).
 
-### What happens after 14 days?
+### What happens after 30 days?
 
 AI answers switch off until you pay for the subscription. Commands without AI, memory and settings stay. Teo shows a screen with the payment buttons.
 

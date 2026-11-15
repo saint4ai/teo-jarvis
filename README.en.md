@@ -6,15 +6,15 @@
 
 **Jarvis for your own computer.** Say "Teo" and it opens apps, finds files, reads your mail or edits a spreadsheet. It runs on Claude. Windows and macOS.
 
-Beta 1.0.0-beta.3: **14 days free, every feature included. Then $10 a month.** Teo needs a Claude subscription from $20 a month.
+Beta 1.0.0-beta.4: **30 days free, every feature included. Then $10 a month.** Teo needs a Claude subscription from $20 a month.
 
 ![Status](https://img.shields.io/badge/status-beta-e8c887?style=flat-square)
 ![Windows](https://img.shields.io/badge/Windows-10%20and%2011-3b82f6?style=flat-square&logo=windows&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-13%2B%20%28Apple%20Silicon%29-555?style=flat-square&logo=apple&logoColor=white)
-![Price](https://img.shields.io/badge/beta-14%20days%20free%2C%20then%20%2410%20a%20month-2ea043?style=flat-square)
+![Price](https://img.shields.io/badge/beta-30%20days%20free%2C%20then%20%2410%20a%20month-2ea043?style=flat-square)
 ![Runs on Claude](https://img.shields.io/badge/runs%20on-Claude-d97757?style=flat-square)
 
-**[Download the beta](https://github.com/saint4ai/teo-jarvis/releases)** · [Install](#install) · [Features](#what-teo-does) · [FAQ](docs/FAQ.en.md) · [Русский](README.md)
+**[Download the beta](https://github.com/saint4ai/teo-jarvis/releases/latest)** · [Install](#install) · [Features](#what-teo-does) · [FAQ](docs/FAQ.en.md) · [Author](#author) · [Русский](README.md)
 
 ---
 
@@ -84,7 +84,7 @@ Details: [docs/REQUIREMENTS.en.md](docs/REQUIREMENTS.en.md).
 
 ### Windows
 
-**1.** Open [Releases](https://github.com/saint4ai/teo-jarvis/releases) and download `Teo-Setup-1.0.0-beta.3.exe`. The browser may ask about the file: click Keep.
+**1.** Open the [latest release](https://github.com/saint4ai/teo-jarvis/releases/latest) and download `Teo-Setup-1.0.0-beta.4.exe`. The browser may ask about the file: click Keep.
 
 **2.** Run the file with a double click. No administrator rights needed.
 
@@ -106,7 +106,7 @@ The Mac image is added to the release separately from the Windows installer. If 
 
 ![Teo disk image: drag Teo to Applications](assets/install/mac-1-dmg.png)
 
-**1.** Download the `.dmg` file from [Releases](https://github.com/saint4ai/teo-jarvis/releases), open it and drag Teo to Applications.
+**1.** Download the `.dmg` file from the [latest release](https://github.com/saint4ai/teo-jarvis/releases/latest), open it and drag Teo to Applications.
 
 <img src="assets/install/mac-2-dialog.png" alt="macOS warning: click Done" width="320">
 
@@ -134,7 +134,7 @@ Teo setup walks you through: computer check, Teo account, microphone, wake word,
    - **With email.** In the "New account" block, enter your email, a password of at least 8 characters, the password again, and choose your country: the payment currency depends on it. Click "Create account". Already have an account? Use the "Already have an account" block with your email and password.
    - **With Telegram.** Click the Telegram button. Telegram sends you the message "We received a request to log in". Tap "Accept" in it. The page shows this in a picture. The sign-in bot is @teojarvis_bot.
 
-Enter your password only on that page: Teo does not see or store it. We do not send emails yet. The 14-day trial starts with your first sign-in.
+Enter your password only on that page: Teo does not see or store it. We do not send emails yet. The 30-day trial starts with your first sign-in.
 
 On first launch Teo downloads two models: speech recognition (about 640 MB) and memory (about 130 MB). That is about 5 minutes at 20 Mbit/s. You can go through the steps while they download.
 
@@ -144,16 +144,16 @@ On first launch Teo downloads two models: speech recognition (about 640 MB) and 
 
 Google Drive, Google Calendar and other services connect through Claude. Mail is set up in Teo separately. Guide: [docs/CONNECTORS.en.md](docs/CONNECTORS.en.md).
 
-## Beta: 14 days free, then $10 a month
+## Beta: 30 days free, then $10 a month
 
 | | |
 |---|---|
-| **Trial** | 14 days, every feature. No card asked. It starts with your first sign-in. You get it once per email, once per Telegram account and once per computer |
+| **Trial** | 30 days, every feature. No card asked. It starts with your first sign-in. You get it once per email, once per Telegram account and once per computer |
 | **After that** | $10 a month, one plan. The amount in the payment currency is shown on the payment page before you pay. No automatic charges: you renew yourself |
 | **Where to pay** | In Teo: Settings, "Teo account and subscription" |
 | **Two ways** | "Pay with a Russian bank card" («Оплата Россия»): a card from a Russian bank, paid at once. "Pay with a card from another country" («Оплата другие страны»): a card from a bank outside Russia, the payment link arrives by SMS |
 | **Refund** | We refund the days that have not started yet. Terms in the [offer](https://teo.onai.academy/terms) |
-| **After 14 days without payment** | AI answers switch off. Commands without AI, memory and settings stay |
+| **After 30 days without payment** | AI answers switch off. Commands without AI, memory and settings stay |
 | **Computer** | One account, one computer. You can move it once in 30 days |
 
 You can see your account, subscription and payments on the [teo.onai.academy/account](https://teo.onai.academy/account) page. You can also unlink the computer or delete the account there.
@@ -163,6 +163,10 @@ You can see your account, subscription and payments on the [teo.onai.academy/acc
 - Email: [saint4aiinst@gmail.com](mailto:saint4aiinst@gmail.com). Give your account number: it is on the account page.
 - The "Send feedback" form («Оставить отзыв») in Teo: Settings, Support block. Send ideas there too.
 - Teo sends error reports to the developers by itself, without your conversations, files or keys. You can turn this off in Settings, Privacy block.
+
+## Author
+
+**Teo is made by Alexander Tararushkin** (Александр Тарарушкин). For investors and partners: Instagram [@saint4ai](https://www.instagram.com/saint4ai/).
 
 ## Privacy
 

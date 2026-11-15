@@ -2,7 +2,7 @@
 
 [Русская версия](INSTALL-MAC.md) · [Back to README](../README.en.md)
 
-You need a Mac with an Apple chip (M1 or newer) and macOS 13 or newer. Teo comes as a `.dmg` file from [Releases](https://github.com/saint4ai/teo-jarvis/releases).
+You need a Mac with an Apple chip (M1 or newer) and macOS 13 or newer. Teo comes as a `.dmg` file from the [latest release](https://github.com/saint4ai/teo-jarvis/releases/latest).
 
 The Mac image is added to the release separately from the Windows installer. If there is no `.dmg` file there yet, the Mac version is being prepared.
 

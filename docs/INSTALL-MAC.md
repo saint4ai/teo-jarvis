@@ -2,7 +2,7 @@
 
 [English version](INSTALL-MAC.en.md) · [Назад к README](../README.md)
 
-Нужен Mac с чипом Apple (M1 и новее) и macOS 13 или новее. Тео ставится файлом `.dmg` из [Releases](https://github.com/saint4ai/teo-jarvis/releases).
+Нужен Mac с чипом Apple (M1 и новее) и macOS 13 или новее. Тео ставится файлом `.dmg` из [последнего выпуска](https://github.com/saint4ai/teo-jarvis/releases/latest).
 
 Образ для Mac кладут в выпуск отдельно от установщика Windows. Если файла `.dmg` там ещё нет, версия для Mac готовится.
 
