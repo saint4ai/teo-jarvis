@@ -6,7 +6,7 @@
 
 **Jarvis for your own computer.** Say "Teo" and it opens apps, finds files, reads your mail or edits a spreadsheet. It runs on Claude. Windows and macOS.
 
-Teo is in beta, version 1.0.0-beta.11. It needs a Claude subscription from $20 a month.
+Teo is in beta, version 1.0.0-beta.12. It needs a Claude subscription from $20 a month.
 
 ![Status](https://img.shields.io/badge/status-beta-e8c887?style=flat-square)
 ![Windows](https://img.shields.io/badge/Windows-10%20and%2011-3b82f6?style=flat-square&logo=windows&logoColor=white)
@@ -83,7 +83,7 @@ Details: [docs/REQUIREMENTS.en.md](docs/REQUIREMENTS.en.md).
 
 ### Windows
 
-**1.** Open the [latest release](https://github.com/saint4ai/teo-jarvis/releases/latest) and download `Teo-Setup-1.0.0-beta.11.exe`. The browser may ask about the file: click Keep.
+**1.** Open the [latest release](https://github.com/saint4ai/teo-jarvis/releases/latest) and download `Teo-Setup-1.0.0-beta.12.exe`. The browser may ask about the file: click Keep.
 
 **2.** Run the file with a double click. No administrator rights needed.
 
